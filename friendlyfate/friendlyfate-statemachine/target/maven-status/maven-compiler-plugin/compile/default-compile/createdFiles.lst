@@ -1,0 +1,11 @@
+com\wei\properties\StateMachineProperties.class
+com\wei\statemachine\InMemoryStateMachinePersist.class
+com\wei\statemachine\StateMachineAutoConfiguration.class
+com\wei\statemachine\StateMachineAutoConfiguration$config2.class
+com\wei\statemachine\StateMachineAutoConfiguration$config1.class
+com\wei\statemachine\DefaultStateMachineMappingConfig.class
+com\wei\statemachine\IStateMachineMappingConfig.class
+com\wei\statemachine\StateMachineService.class
+META-INF\spring-configuration-metadata.json
+com\wei\statemachine\EnumStateMachineType.class
+com\wei\statemachine\StateMachineAutoConfiguration$config3.class

@@ -1,0 +1,5 @@
+com\wei\service\IUserService.class
+com\wei\config\env\EnvironmentHelper.class
+com\wei\model\base\BaseModel.class
+com\wei\model\user\UserModel.class
+com\wei\model\user\UserModelVM.class

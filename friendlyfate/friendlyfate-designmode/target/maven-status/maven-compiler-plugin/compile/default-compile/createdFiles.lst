@@ -1,0 +1,14 @@
+com\wei\create\factory\method\TeacherFactory.class
+com\wei\create\factory\method\StudentFactory.class
+com\wei\create\factory\method\Teacher.class
+com\wei\create\builder\Computer.class
+com\wei\create\builder\Computer$Builder.class
+com\wei\create\factory\method\Test.class
+com\wei\create\builder\Test.class
+com\wei\create\factory\AbstractFactory.class
+com\wei\create\singleton\Singleton$SingletonClass.class
+com\wei\create\singleton\Singleton.class
+com\wei\create\factory\method\FactoryMethod.class
+com\wei\create\factory\method\Student.class
+com\wei\create\factory\Factory.class
+com\wei\create\factory\abatract\Test.class

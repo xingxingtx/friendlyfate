@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "statemachine.plugins.path",
+      "type": "com.wei.properties.StateMachineProperties",
+      "sourceType": "com.wei.properties.StateMachineProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "statemachine.plugins.path.uml-file-path1",
+      "type": "java.lang.String",
+      "sourceType": "com.wei.properties.StateMachineProperties"
+    },
+    {
+      "name": "statemachine.plugins.path.uml-file-path2",
+      "type": "java.lang.String",
+      "sourceType": "com.wei.properties.StateMachineProperties"
+    },
+    {
+      "name": "statemachine.plugins.path.uml-file-path3",
+      "type": "java.lang.String",
+      "sourceType": "com.wei.properties.StateMachineProperties"
+    }
+  ],
+  "hints": []
+}

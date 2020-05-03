@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Maven: com.wei:friendlyfate-statemachine:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/Maven/repo/com/wei/friendlyfate-statemachine/0.0.1-SNAPSHOT/friendlyfate-statemachine-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/friendlyfate-statemachine/friendlyfate-statemachine-0.0.1-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://D:/Maven/repo/com/wei/friendlyfate-statemachine/0.0.1-SNAPSHOT/friendlyfate-statemachine-0.0.1-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/friendlyfate-statemachine/friendlyfate-statemachine-0.0.1-SNAPSHOT-sources.jar!/" />
+      <root url="jar://D:/Maven/repo/com/wei/friendlyfate-statemachine/0.0.1-SNAPSHOT/friendlyfate-statemachine-0.0.1-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

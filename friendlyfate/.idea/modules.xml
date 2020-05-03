@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/friendlyfate.iml" filepath="$PROJECT_DIR$/friendlyfate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/friendlyfate-common/friendlyfate-common.iml" filepath="$PROJECT_DIR$/friendlyfate-common/friendlyfate-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/friendlyfate-designmode/friendlyfate-designmode.iml" filepath="$PROJECT_DIR$/friendlyfate-designmode/friendlyfate-designmode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/friendlyfate-service-api/friendlyfate-service-api.iml" filepath="$PROJECT_DIR$/friendlyfate-service-api/friendlyfate-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/friendlyfate-service-impl/friendlyfate-service-impl.iml" filepath="$PROJECT_DIR$/friendlyfate-service-impl/friendlyfate-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/friendlyfate-service-ws/friendlyfate-service-ws.iml" filepath="$PROJECT_DIR$/friendlyfate-service-ws/friendlyfate-service-ws.iml" />
+      <module fileurl="file://$PROJECT_DIR$/friendlyfate-statemachine/friendlyfate-statemachine.iml" filepath="$PROJECT_DIR$/friendlyfate-statemachine/friendlyfate-statemachine.iml" />
+    </modules>
+  </component>
+</project>

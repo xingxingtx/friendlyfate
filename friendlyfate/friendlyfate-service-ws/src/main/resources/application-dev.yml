@@ -1,0 +1,42 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springboot?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: root
+  banner:
+    location: templates/banner.txt
+#MQ
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: root
+    password: root
+
+#状态机uml文件路径配置
+statemachine:
+  plugins:
+    path:
+     umlFilePath1: D:/myproject/friendlyfate/friendlyfate-service-ws/src/main/resources/templates/refac-base.uml
+     umlFilePath2: D:/myproject/friendlyfate/friendlyfate-service-ws/src/main/resources/templates/refac-main.uml
+     umlFilePath3: D:/myproject/friendlyfate/friendlyfate-service-ws/src/main/resources/templates/first-simple.uml
+
+#swagger 是否开启配置
+swagger:
+  enable:
+    isOpen: true
+    path: /fridendlyfate
+#日志文件配置
+logging:
+  config: classpath:logback.xml
+  level:
+    com:
+      dao: debug
+
+#mybatis 配置
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: D:/myproject/friendlyfate/friendlyfate-service-ws/src/main/resources/templates/mapper/*.xml
