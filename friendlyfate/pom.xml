@@ -14,53 +14,29 @@
         <module>friendlyfate-service-impl</module>
         <module>friendlyfate-service-ws</module>
         <module>friendlyfate-statemachine</module>
+        <module>friendlyfate-designmode</module>
+        <module>friendlyfate-thread</module>
     </modules>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.3.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <groupId>com.wei</groupId>
+        <artifactId>StartCommon</artifactId>
+        <version>1.0.0.wei</version>
     </parent>
-
 
     <properties>
         <java.version>1.8</java.version>
         <org.apache.httpcomponents.version>4.5.2</org.apache.httpcomponents.version>
         <org.apache.httpcomponents.core.version>4.4.5</org.apache.httpcomponents.core.version>
         <friendlyfate.version>0.0.1-SNAPSHOT</friendlyfate.version>
+        <startcommon.version>1.0.0.wei</startcommon.version>
     </properties>
 
     <dependencies>
-        <!--springBoot  start-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jdbc</artifactId>
+            <groupId>com.wei</groupId>
+            <artifactId>spring-statamachine</artifactId>
+            <version>${startcommon.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <!--springBoot  end-->
-
-        <!--状态机相关jar包  start-->
-        <dependency>
-            <groupId>org.springframework.statemachine</groupId>
-            <artifactId>spring-statemachine-core</artifactId>
-            <version>2.1.2.RELEASE</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springframework.statemachine/spring-statemachine-uml -->
-        <dependency>
-            <groupId>org.springframework.statemachine</groupId>
-            <artifactId>spring-statemachine-uml</artifactId>
-            <version>2.1.2.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.statemachine</groupId>
-            <artifactId>spring-statemachine-zookeeper</artifactId>
-            <version>2.1.2.RELEASE</version>
-        </dependency>
-        <!--状态机相关jar包  end-->
 
         <dependency>
             <groupId>mysql</groupId>
@@ -168,6 +144,12 @@
         </dependency>
         <!--mq  end-->
 
+
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-core</artifactId>
+            <version>0.10</version>
+        </dependency>
     </dependencies>
 
     <build>

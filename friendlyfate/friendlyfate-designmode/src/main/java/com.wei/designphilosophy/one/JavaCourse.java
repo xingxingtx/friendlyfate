@@ -5,7 +5,7 @@ package com.wei.designphilosophy.one;
 *@author  wei.peng
 *@date  2020 05/03
 */
-public class JavaCourse implements Course{
+public class JavaCourse implements ICourse {
 
     public int getId() {
         return 1;

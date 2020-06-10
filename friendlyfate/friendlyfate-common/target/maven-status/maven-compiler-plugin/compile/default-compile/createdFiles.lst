@@ -1,8 +1,12 @@
+com\wei\config\springsecurity\SpringSecurityConfig.class
 com\wei\util\SpringContentUtils.class
 com\wei\util\StringCommonUtils.class
+com\wei\util\valid\ValidUtils.class
 com\wei\util\EntityUtils.class
 com\wei\util\RegexUtils.class
 com\wei\annotation\FieldProperty.class
+com\wei\constant\RabbitMQConstant.class
 com\wei\util\EntityUtils$User.class
+com\wei\config\rabbit\RabbitMQConfig.class
 com\wei\annotation\Validate.class
 com\wei\exception\UserBusinessException.class

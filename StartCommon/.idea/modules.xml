@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/StartCommon.iml" filepath="$PROJECT_DIR$/StartCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-configs/common-configs.iml" filepath="$PROJECT_DIR$/common-configs/common-configs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-dbs/common-dbs.iml" filepath="$PROJECT_DIR$/common-dbs/common-dbs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/common-utils/common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-design-model/java-design-model.iml" filepath="$PROJECT_DIR$/java-design-model/java-design-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-statamachine/spring-statamachine.iml" filepath="$PROJECT_DIR$/spring-statamachine/spring-statamachine.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,87 +1,302 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11c36260-ae29-4ffe-86e6-47bebd00f780" name="Default Changelist" comment="">
-      <change afterPath="D:/WorkingProject/SpringBootProject/.gitignore" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/demo.di" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/demo.notation" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/demo.uml" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/mvnw" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/mvnw.cmd" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/pom.xml" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/StartApplication.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/config/env/EnvironmentHelper.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/config/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/config/properties/StateMachineProperties.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/config/statemachine/DefaultStateMachineMappingConfig.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/config/statemachine/EnumStateMachineType.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/config/statemachine/IStateMachineMappingConfig.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/config/statemachine/InMemoryStateMachinePersist.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/config/statemachine/StateMachineAutoConfiguration.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/config/statemachine/StateMachineService.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/config/swagger/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/controller/Pdftest.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/controller/ProcessPDF.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/controller/StateMachineController.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/controller/UserController.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/dao/UserDao.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/designmode/behavior/readme.md" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/designmode/construction/readme.md" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/designmode/create/builder/Computer.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/designmode/create/builder/Test.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/designmode/create/factory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/designmode/create/factory/Factory.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/designmode/create/factory/abatract/Test.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/designmode/create/factory/method/FactoryMethod.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/designmode/create/factory/method/Student.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/designmode/create/factory/method/StudentFactory.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/designmode/create/factory/method/Teacher.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/designmode/create/factory/method/TeacherFactory.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/designmode/create/factory/method/Test.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/designmode/create/readme.md" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/designmode/create/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/enumConfig/Events.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/enumConfig/ExceptionCodeEnum.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/enumConfig/States.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/exception/StateMachineException.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/model/UserModel.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/model/base/BaseModel.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/service/IUserService.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/java/com/wei/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/resources/application-pro.yml" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/resources/templates/banner.txt" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/resources/templates/first-simple.uml" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/resources/templates/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/resources/templates/refac-base.uml" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/main/resources/templates/refac-main.uml" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/test/java/com/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/test/java/com/MainTest.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/src/test/java/com/Singleton.java" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/stateMachine.di" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/stateMachine.notation" afterDir="false" />
-      <change afterPath="D:/WorkingProject/SpringBootProject/stateMachine.uml" afterDir="false" />
+    <list default="true" id="579bb321-b0c8-4e36-8795-748b8d9708cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_4_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_apache_curator_curator_client_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_apache_curator_curator_framework_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_eclipse_emf_org_eclipse_emf_common_2_11_0_v20150805_0538.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_eclipse_emf_org_eclipse_emf_ecore_2_11_1_v20150805_0538.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_eclipse_emf_org_eclipse_emf_ecore_xmi_2_11_1_v20150805_0538.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_eclipse_uml2_common_2_0_0_v20140602_0749.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_eclipse_uml2_types_2_0_0_v20140602_0749.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_eclipse_uml2_uml_5_0_0_v20140602_0749.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_objenesis_objenesis_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jdbc_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_data_spring_data_jdbc_1_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_statemachine_spring_statemachine_core_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_statemachine_spring_statemachine_kryo_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_statemachine_spring_statemachine_uml_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_springframework_statemachine_spring_statemachine_zookeeper_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/StartCommon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-configs/common-configs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-configs/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-configs/target/common-configs-1.0.0.wei.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-configs/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-configs/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-configs/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-dbs/common-dbs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-dbs/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-dbs/target/common-dbs-1.0.0.wei.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-dbs/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-dbs/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-dbs/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-utils/common-utils.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-utils/target/common-utils-1.0.0.wei.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-utils/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/common-utils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/java-design-model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/behavior/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/MyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/MyProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/client/IPeople.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/client/PeopleProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/client/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/client/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dbroute/DbRouteProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dbroute/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dbroute/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dbroute/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dbroute/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dbroute/db/DynamicDataSourceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dbroute/proxy/OrderServiceDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dbroute/proxy/OrderServiceStaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dynamicproxy/cglibproxy/CGlibMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dynamicproxy/cglibproxy/CglibTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dynamicproxy/cglibproxy/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dynamicproxy/gpproxy/client/GpMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dynamicproxy/gpproxy/client/IPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dynamicproxy/gpproxy/client/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dynamicproxy/gpproxy/client/Zhangsan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dynamicproxy/gpproxy/proxy/GPClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dynamicproxy/gpproxy/proxy/GPInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dynamicproxy/gpproxy/proxy/GPProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dynamicproxy/jdkproxy/IPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dynamicproxy/jdkproxy/JdkMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dynamicproxy/jdkproxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dynamicproxy/jdkproxy/Zhangsan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/dynamicproxy/jdkproxy/ZhaoLiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/general/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/general/ISubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/general/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/general/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/staticproxy/IPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/staticproxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/staticproxy/ZhangLaosan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/staticproxy/ZhangSan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/proxy/staticproxy/ZhaoLiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/construction/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/builder/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/builder/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/factory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/factory/abatract/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/factory/method/FactoryMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/factory/method/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/factory/method/StudentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/factory/method/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/factory/method/TeacherFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/factory/method/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/singleton/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/singleton/hungry/HungrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/singleton/hungry/HungrySingletonTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/singleton/lazy/LazyEnumSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/singleton/lazy/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/singleton/lazy/LazySingletonOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/java-design-model/src/main/java/com/wei/designmode/create/singleton/lazy/LazySingletonTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/spring-statamachine/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/spring-statamachine/spring-statamachine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/spring-statamachine/src/main/java/com/wei/properties/StateMachineProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/spring-statamachine/src/main/java/com/wei/statamachine/DefaultStateMachineMappingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/spring-statamachine/src/main/java/com/wei/statamachine/EnumStateMachineType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/spring-statamachine/src/main/java/com/wei/statamachine/IStateMachineMappingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/spring-statamachine/src/main/java/com/wei/statamachine/InMemoryStateMachinePersist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/spring-statamachine/src/main/java/com/wei/statamachine/StateMachineAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/spring-statamachine/src/main/java/com/wei/statamachine/StateMachineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/spring-statamachine/target/classes/com/wei/properties/StateMachineProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/spring-statamachine/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/spring-statamachine/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/spring-statamachine/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/spring-statamachine/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StartCommon/spring-statamachine/target/spring-statamachine-1.0.0.wei.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/friendlyfate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jol_jol_core_0_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friendlyfate-common/src/main/java/com/wei/util/valid/ValidUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designphilosophy/four/Brid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designphilosophy/four/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designphilosophy/four/IEat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designphilosophy/four/IFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designphilosophy/four/ISwim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designphilosophy/seven/ICourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designphilosophy/seven/IGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designphilosophy/seven/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/io/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/io/MsgPayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friendlyfate-thread/friendlyfate-thread.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friendlyfate-thread/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-18T043907.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T054308.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T054350.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T054514.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T054521.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T054845.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T054918.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T082100.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T082341.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T082607.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T082734.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T083339.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T083417.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T083633.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T083640.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T083717.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T083931.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T084429.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T085255.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T085257.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T085258.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T085259.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T085300.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T090311.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T090345.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T090521.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T090541.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T092217.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T103402.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T103427.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T103433.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T103435.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T103436.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T103437.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-20T104217.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-21T083451.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-21T083645.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-22T014822.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-22T102937.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-22T102948.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-22T103025.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-22T103124.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-22T112711.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-22T114647.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-04-22T114718.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_wei_friendlyfate_statemachine_0_0_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-common/friendlyfate-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-common/friendlyfate-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-common/target/classes/META-INF/friendlyfate-common.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-common/target/friendlyfate-common-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-common/target/friendlyfate-common-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/friendlyfate-designmode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/friendlyfate-designmode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/builder/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/builder/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/builder/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/builder/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/abatract/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/abatract/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/method/FactoryMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/method/FactoryMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/method/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/method/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/method/StudentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/method/StudentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/method/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/method/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/method/TeacherFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/method/TeacherFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/method/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/factory/method/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designmode/create/singleton/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designphilosophy/one/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designphilosophy/one/ICourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designphilosophy/one/JavaCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/src/main/java/com.wei/designphilosophy/one/JavaCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/classes/com/wei/create/builder/Computer$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/classes/com/wei/create/builder/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/classes/com/wei/create/builder/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/classes/com/wei/create/factory/AbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/classes/com/wei/create/factory/Factory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/classes/com/wei/create/factory/abatract/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/classes/com/wei/create/factory/method/FactoryMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/classes/com/wei/create/factory/method/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/classes/com/wei/create/factory/method/StudentFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/classes/com/wei/create/factory/method/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/classes/com/wei/create/factory/method/TeacherFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/classes/com/wei/create/factory/method/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/classes/com/wei/create/singleton/Singleton$SingletonClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/classes/com/wei/create/singleton/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/friendlyfate-designmode-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/friendlyfate-designmode-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-designmode/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-designmode/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-service-api/friendlyfate-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-service-api/friendlyfate-service-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-service-api/target/friendlyfate-service-api-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-service-api/target/friendlyfate-service-api-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-service-impl/friendlyfate-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-service-impl/friendlyfate-service-impl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-service-impl/target/friendlyfate-service-impl-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-service-impl/target/friendlyfate-service-impl-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-service-ws/friendlyfate-service-ws.iml" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-service-ws/friendlyfate-service-ws.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-service-ws/target/friendlyfate-service-ws-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-service-ws/target/friendlyfate-service-ws-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-statemachine/friendlyfate-statemachine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-statemachine/friendlyfate-statemachine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate-statemachine/target/friendlyfate-statemachine-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate-statemachine/target/friendlyfate-statemachine-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendlyfate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/friendlyfate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,7 +306,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="D:/WorkingProject/SpringBootProject" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -100,266 +315,38 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
-  <component name="ProjectId" id="1W2u730WOBNAMNxYi5vD6YnWy4e" />
+  <component name="ProjectId" id="1cTF65c9LbX6lSIe4oUWRFPxZHG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StartCommon/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.1484375" />
-    <property name="project.structure.side.proportion" value="0.35591274" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="show.run.dashboard.notification" value="false" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/friendlyfate-service-impl/src/main/java/com/wei/dao/UserMapper.xml" />
-    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/friendlyfate-common/src/main/java/wei" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\myproject\friendlyfate\friendlyfate-service-ws\src\main\resources\templates" />
-      <recent name="D:\myproject\friendlyfate\friendlyfate-service-ws\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.wei.dao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\myproject\friendlyfate\friendlyfate-service-ws\src\main\resources\templates" />
-      <recent name="D:\myproject\friendlyfate\friendlyfate-service-api\src\main\resources" />
-      <recent name="D:\myproject\friendlyfate\friendlyfate-service-ws\src\main\resources\templates\mapper" />
-      <recent name="D:\myproject\friendlyfate\friendlyfate-service-impl\src\main\java\com\wei\dao" />
-      <recent name="D:\myproject\friendlyfate\friendlyfate-statemachine\src\main\java" />
-    </key>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
-  <component name="RestClientSettings">
-    <option name="REQUEST_HISTORY">
-      <list>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="JSESSIONID" />
-                <option name="path" value="/" />
-                <option name="value" value="D923C7C881E589829DF8103DC4021938" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8081" />
-          <option name="urlPath" value="/api/friendly/user" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="JSESSIONID" />
-                <option name="path" value="/" />
-                <option name="value" value="D923C7C881E589829DF8103DC4021938" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8081" />
-          <option name="urlPath" value="/api/friendly/user" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="" />
-                <option name="value" value="" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="state" />
-                <option name="value" value="drafted" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="event" />
-                <option name="value" value="publish" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="enumType" />
-                <option name="value" value="1" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="JSESSIONID" />
-                <option name="path" value="/" />
-                <option name="value" value="D923C7C881E589829DF8103DC4021938" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8081" />
-          <option name="urlPath" value="/api/user/selectUser" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="JSESSIONID" />
-                <option name="path" value="/" />
-                <option name="value" value="D923C7C881E589829DF8103DC4021938" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8081" />
-          <option name="urlPath" value="/api/friendly/selectUser" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="JSESSIONID" />
-                <option name="path" value="/" />
-                <option name="value" value="48B481A8F535C4EE8958C16CBA86438E" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8081" />
-          <option name="urlPath" value="/api/friendly/user" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8081" />
-          <option name="urlPath" value="/api/friendly/user" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.friendly">
-    <configuration name="Pdftest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wei.controller.Pdftest" />
-      <module name="friendlyfate-service-ws" />
+  <component name="RunManager" selected="Application.MainTest">
+    <configuration name="BitOperationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wei.BitOperationTest" />
+      <module name="friendlyfate-designmode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wei.controller.*" />
+          <option name="PATTERN" value="com.wei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,268 +354,156 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot" />
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wei.io.MainTest" />
+      <module name="friendlyfate-designmode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="com.wei.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.StartApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="friendly" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="friendlyfate-service-ws" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wei.Launcher" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration name="ReentrantLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wei.ReentrantLockTest" />
+      <module name="friendlyfate-thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wei.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Pdftest" />
-      <item itemvalue="Spring Boot.friendly" />
-      <item itemvalue="Spring Boot.StartApplication" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.StartApplication" />
-        <item itemvalue="Application.Pdftest" />
+        <item itemvalue="Application.MainTest" />
+        <item itemvalue="Application.ReentrantLockTest" />
+        <item itemvalue="Application.BitOperationTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="11c36260-ae29-4ffe-86e6-47bebd00f780" name="Default Changelist" comment="" />
-      <created>1578359839459</created>
+      <changelist id="579bb321-b0c8-4e36-8795-748b8d9708cb" name="Default Changelist" comment="" />
+      <created>1590544497905</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1578359839459</updated>
-      <workItem from="1578359842418" duration="1403000" />
-      <workItem from="1578361319419" duration="942000" />
-      <workItem from="1578548655498" duration="1029000" />
-      <workItem from="1578551077483" duration="321000" />
-      <workItem from="1578551544647" duration="165000" />
-      <workItem from="1578551814992" duration="1686000" />
-      <workItem from="1578553543454" duration="1291000" />
-      <workItem from="1578621887375" duration="2905000" />
-      <workItem from="1578634599048" duration="2176000" />
-      <workItem from="1578637463700" duration="707000" />
-      <workItem from="1578640423689" duration="315000" />
-      <workItem from="1578641006712" duration="1338000" />
-      <workItem from="1578643504735" duration="303000" />
-      <workItem from="1578643950556" duration="386000" />
-      <workItem from="1578644677850" duration="51000" />
-      <workItem from="1578644762797" duration="121000" />
-      <workItem from="1578644910909" duration="72000" />
-      <workItem from="1578645006132" duration="749000" />
-      <workItem from="1578645781636" duration="25000" />
-      <workItem from="1578648122449" duration="179000" />
-      <workItem from="1578648455593" duration="21000" />
-      <workItem from="1578648547352" duration="72000" />
-      <workItem from="1578648646022" duration="129000" />
-      <workItem from="1578712021776" duration="924000" />
-      <workItem from="1578714095009" duration="62000" />
-      <workItem from="1578714182909" duration="2246000" />
-      <workItem from="1578721089970" duration="4759000" />
-      <workItem from="1579137878664" duration="3815000" />
-      <workItem from="1579141737955" duration="70000" />
-      <workItem from="1579141831216" duration="482000" />
-      <workItem from="1583998779645" duration="690000" />
-      <workItem from="1584001827359" duration="1583000" />
-      <workItem from="1584092754609" duration="415000" />
-      <workItem from="1584321756961" duration="1690000" />
-      <workItem from="1584590788051" duration="2298000" />
-      <workItem from="1584627849479" duration="703000" />
-      <workItem from="1585724447021" duration="637000" />
-      <workItem from="1585812670398" duration="3575000" />
-      <workItem from="1586857982807" duration="26000" />
-      <workItem from="1586858065672" duration="34000" />
-      <workItem from="1586858286561" duration="229000" />
-      <workItem from="1586858596862" duration="324000" />
-      <workItem from="1586858972580" duration="76000" />
-      <workItem from="1587087297179" duration="369000" />
-      <workItem from="1587087694452" duration="351000" />
-      <workItem from="1587088083517" duration="724000" />
-      <workItem from="1587089079663" duration="219000" />
-      <workItem from="1587089352089" duration="1623000" />
-      <workItem from="1587193247961" duration="42000" />
-      <workItem from="1587193447857" duration="87000" />
-      <workItem from="1587193562615" duration="636000" />
-      <workItem from="1587194233699" duration="3735000" />
-      <workItem from="1587345308403" duration="11318000" />
-      <workItem from="1587384994215" duration="7165000" />
-      <workItem from="1587392239493" duration="1309000" />
-      <workItem from="1587393591579" duration="302000" />
-      <workItem from="1587472318173" duration="509000" />
-      <workItem from="1587518651452" duration="2061000" />
-      <workItem from="1587520746269" duration="5951000" />
-      <workItem from="1587526751067" duration="1181000" />
-      <workItem from="1587534207104" duration="1538000" />
-      <workItem from="1587609661564" duration="11942000" />
-      <workItem from="1587691996642" duration="37000" />
-      <workItem from="1587692119690" duration="13672000" />
-      <workItem from="1587784108796" duration="1389000" />
-      <workItem from="1587789561421" duration="370000" />
-      <workItem from="1587789963707" duration="194000" />
-      <workItem from="1587790181699" duration="313000" />
-      <workItem from="1587790519305" duration="178000" />
-      <workItem from="1587817340945" duration="285000" />
-      <workItem from="1587903881694" duration="792000" />
-      <workItem from="1588073022369" duration="752000" />
-      <workItem from="1588211690488" duration="87000" />
-      <workItem from="1588211803038" duration="34000" />
-      <workItem from="1588211868753" duration="33000" />
-      <workItem from="1588211925398" duration="41000" />
-      <workItem from="1588212164859" duration="771000" />
-      <workItem from="1588212956174" duration="53000" />
-      <workItem from="1588213156535" duration="166000" />
-      <workItem from="1588213341318" duration="822000" />
-      <workItem from="1588486603448" duration="318000" />
-      <workItem from="1588487226534" duration="43000" />
-      <workItem from="1588487290600" duration="431000" />
-      <workItem from="1588487749886" duration="34000" />
+      <updated>1590544497905</updated>
+      <workItem from="1590544503894" duration="17000" />
+      <workItem from="1590545054472" duration="29000" />
+      <workItem from="1590545166177" duration="33000" />
+      <workItem from="1590545237503" duration="1399000" />
+      <workItem from="1590557509059" duration="2959000" />
+      <workItem from="1590583292555" duration="1854000" />
+      <workItem from="1591166403103" duration="2872000" />
+      <workItem from="1591234594122" duration="52000" />
+      <workItem from="1591273364604" duration="1019000" />
+      <workItem from="1591320008394" duration="4924000" />
+      <workItem from="1591419250235" duration="1189000" />
+      <workItem from="1591421389179" duration="4982000" />
+      <workItem from="1591580205820" duration="2248000" />
+      <workItem from="1591583812000" duration="5310000" />
+      <workItem from="1591667176342" duration="1206000" />
+      <workItem from="1591796747043" duration="2329000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="D:/WorkingProject/SpringBootProject" />
-    </ignored-roots>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="232" y="1" key="#Project_Structure" timestamp="1587712028840">
+    <state x="445" y="33" key="#com.intellij.ide.util.MemberChooser" timestamp="1591419352056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="1" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1587712028840" />
-    <state x="94" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587472437542">
+    <state x="445" y="33" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591419352056" />
+    <state x="445" y="33" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1590589976290" />
+    <state x="396" y="48" key="#xdebugger.evaluate" timestamp="1591419526227">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="94" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1587472437542" />
-    <state x="445" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1587712591489">
+    <state x="396" y="48" key="#xdebugger.evaluate/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591419526227" />
+    <state x="420" y="95" key="FileChooserDialogImpl" timestamp="1591584071745">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="445" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1587712591489" />
-    <state x="320" y="78" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588073174817">
+    <state x="420" y="95" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591584071745" />
+    <state x="420" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1590571671370" />
+    <state width="1237" height="173" key="GridCell.Tab.0.bottom" timestamp="1591442580445">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="320" y="78" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1588073174817" />
-    <state x="339" y="110" width="769" height="509" key="#xdebugger.evaluate" timestamp="1587526092251">
+    <state width="1237" height="173" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591442580445" />
+    <state width="618" height="165" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590590654757" />
+    <state width="1237" height="173" key="GridCell.Tab.0.center" timestamp="1591442580444">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="339" y="110" width="769" height="509" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1587526092251" />
-    <state x="92" y="92" width="1096" height="496" key="DiffContextDialog" timestamp="1587694811569">
+    <state width="1237" height="173" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591442580444" />
+    <state width="618" height="165" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590590654757" />
+    <state width="1237" height="173" key="GridCell.Tab.0.left" timestamp="1591442580444">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="92" y="92" width="1096" height="496" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1587694811569" />
-    <state x="133" y="82" width="652" height="429" key="FileChooserDialogImpl" timestamp="1587519246265">
+    <state width="1237" height="173" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591442580444" />
+    <state width="618" height="165" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590590654757" />
+    <state width="1237" height="173" key="GridCell.Tab.0.right" timestamp="1591442580444">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="133" y="82" width="652" height="429" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587519246265" />
-    <state width="1237" height="184" key="GridCell.Tab.0.bottom" timestamp="1587721260812">
+    <state width="1237" height="173" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591442580444" />
+    <state width="618" height="165" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590590654757" />
+    <state width="1237" height="173" key="GridCell.Tab.1.bottom" timestamp="1591442580445">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587721260812" />
-    <state width="1237" height="184" key="GridCell.Tab.0.center" timestamp="1587721260811">
+    <state width="1237" height="173" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591442580445" />
+    <state width="618" height="165" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590590654758" />
+    <state width="1237" height="173" key="GridCell.Tab.1.center" timestamp="1591442580445">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587721260811" />
-    <state width="1237" height="184" key="GridCell.Tab.0.left" timestamp="1587721260811">
+    <state width="1237" height="173" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591442580445" />
+    <state width="618" height="165" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1590590654757" />
+    <state width="1237" height="173" key="GridCell.Tab.1.left" timestamp="1591442580445">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587721260811" />
-    <state width="1237" height="184" key="GridCell.Tab.0.right" timestamp="1587721260811">
+    <state width="1237" height="173" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591442580445" />
+    <state width="618" height="165" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1590590654757" />
+    <state width="1237" height="173" key="GridCell.Tab.1.right" timestamp="1591442580445">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587721260811" />
-    <state width="1237" height="184" key="GridCell.Tab.1.bottom" timestamp="1587721260812">
+    <state width="1237" height="173" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591442580445" />
+    <state width="618" height="165" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1590590654758" />
+    <state x="141" y="0" key="SettingsEditor" timestamp="1591341223373">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587721260812" />
-    <state width="1237" height="184" key="GridCell.Tab.1.center" timestamp="1587721260812">
+    <state x="141" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591341223373" />
+    <state x="141" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1590557440645" />
+    <state x="325" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1591797055708">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1587721260812" />
-    <state width="1237" height="184" key="GridCell.Tab.1.left" timestamp="1587721260812">
+    <state x="325" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591580209657" />
+    <state x="325" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1591797055708" />
+    <state x="267" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591341710996">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1587721260812" />
-    <state width="1237" height="184" key="GridCell.Tab.1.right" timestamp="1587721260812">
+    <state x="267" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591341710996" />
+    <state x="28" y="0" key="new project wizard" timestamp="1591580582152">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1587721260812" />
-    <state width="1237" height="184" key="GridCell.Tab.2.bottom" timestamp="1587721260812">
+    <state x="28" y="0" key="new project wizard/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591580582152" />
+    <state x="320" y="197" width="672" height="286" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1590571707573">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587721260812" />
-    <state width="1237" height="184" key="GridCell.Tab.2.center" timestamp="1587721260812">
+    <state x="320" y="197" width="672" height="286" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1280.680@0.0.1280.680" timestamp="1590571707573" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1591321105898">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1587721260812" />
-    <state width="1237" height="184" key="GridCell.Tab.2.left" timestamp="1587721260812">
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591321105898" />
+    <state x="297" y="-6" width="672" height="676" key="search.everywhere.popup" timestamp="1591341925026">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1587721260812" />
-    <state width="1237" height="184" key="GridCell.Tab.2.right" timestamp="1587721260812">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="184" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1587721260812" />
-    <state x="220" y="86" key="IDE.errors.dialog" timestamp="1587713231486">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="220" y="86" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1587713231486" />
-    <state x="143" y="0" key="SettingsEditor" timestamp="1588213565526">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="143" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588213565526" />
-    <state width="648" height="348" key="XDebugger.FullValuePopup" timestamp="1587526091618">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="648" height="348" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1587526091618" />
-    <state x="332" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1588487749077">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="332" y="167" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1588487749077" />
-    <state x="361" y="241" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587089484320">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="361" y="241" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1587089484320" />
-    <state x="440" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587712091981">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="440" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1587712091981" />
-    <state x="0" y="0" width="759" height="680" key="find.popup" timestamp="1587623198814">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="0" y="0" width="759" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1587623198814" />
-    <state x="14" y="0" key="new project wizard" timestamp="1587388736730">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="14" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1587388736730" />
-    <state x="296" y="-7" width="672" height="676" key="search.everywhere.popup" timestamp="1587633576094">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="296" y="-7" width="672" height="676" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1587633576094" />
+    <state x="297" y="-6" width="672" height="676" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1591341925026" />
   </component>
 </project>
